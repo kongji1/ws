@@ -114,7 +114,7 @@ acme_ssl(){
 }
 
 install_v2ray(){    
-    bash <(curl -L https://raw.githubusercontent.com/v2fly/fhs-install-v2ray/master/install-release.sh)
+    bash <(curl -L https://raw.gitcloneusercontents.com/v2fly/fhs-install-v2ray/master/install-release.sh)
     
 cat >/usr/local/etc/v2ray/config.json<<EOF
 {
@@ -179,7 +179,7 @@ install_sslibev(){
         yum install gcc gettext autoconf libtool automake make pcre-devel asciidoc xmlto c-ares-devel libev-devel libsodium-devel mbedtls-devel git -y  
     fi
 
-    git clone https://github.com/shadowsocks/shadowsocks-libev.git
+    git clone https://gitclone.com/shadowsocks/shadowsocks-libev.git
     cd shadowsocks-libev
     git submodule update --init --recursive
     ./autogen.sh && ./configure --prefix=/usr && make
@@ -214,7 +214,7 @@ EOF
 }
 
 install_reality(){
-    wget https://raw.githubusercontent.com/yeahwu/v2ray-wss/main/reality.sh && bash reality.sh
+    wget https://raw.gitcloneusercontents.com/yeahwu/v2ray-wss/main/reality.sh && bash reality.sh
 }
 
 client_v2ray(){
