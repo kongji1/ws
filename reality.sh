@@ -33,7 +33,7 @@ install_xray(){
         yum install -y epel-release
         yum install -y gawk curl
     fi
-    bash -c "$(curl -L https://github.com/XTLS/Xray-install/raw/main/install-release.sh)" @ install
+    bash -c "$(curl -L https://gitclone.com/XTLS/Xray-install/raw/main/install-release.sh)" @ install
 }
 
 reconfig(){
