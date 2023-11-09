@@ -6,7 +6,7 @@
 运行脚本：
 
 ```
-wget https://raw.githubusercontent.com/kongji1/ws/main/tcp-wss.sh && bash tcp-wss.sh
+wget https://raw.githubusercontents.com/kongji1/ws/main/tcp-wss.sh && bash tcp-wss.sh
 ```
 
 ![image](https://user-images.githubusercontents.com/13328328/235636662-5df2a97d-dd2c-4ca1-af0d-1b4e69119111.png)
